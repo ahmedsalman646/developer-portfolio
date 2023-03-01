@@ -22,6 +22,7 @@ h1>span:hover {
 section {
     display: flex;
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 .topBanner {
@@ -45,6 +46,9 @@ section {
     width: 70%;
 }
 
+.imageCenter {
+    text-align: center;
+}
 
 .linkButton {
     background: rgb(250,112,91);
@@ -64,6 +68,36 @@ section {
 }
 
 
+
+/* dream big section start */
+.dreamSection {
+    display: flex;
+    align-items: center;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dreamImg {
+    text-align: center;
+}
+.dreamImg img {
+    width: 80%;
+}
+
+.dreamContent h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.dreamContent h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.dreamContent p {
+    width: 90%;
+    text-align: justify;
+}
+
+/* dream big section end */
 
 
 
